@@ -554,8 +554,8 @@ def translate_from_video(
         # porcentaje
         porcentaje = duration_tts / duration_true
 
-        if porcentaje > 2.1:
-            porcentaje = 2.1
+        if porcentaje > 1.5:
+            porcentaje = 1.5
         elif porcentaje <= 1.2 and porcentaje >= 0.8:
             porcentaje = 1.0
         elif porcentaje <= 0.79:
